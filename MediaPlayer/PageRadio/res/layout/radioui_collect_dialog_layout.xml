@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/radioui_collect_dialog_ll"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+    <RelativeLayout
+        android:id="@+id/radioui_collect_dialog_repalce_rl"
+        android:layout_width="@dimen/radioui_collection_dialog_rl_width"
+        android:layout_height="@dimen/radioui_collection_dialog_rl_height"
+        android:background="@drawable/radioui_favorite_replace_bt_selector"
+        android:clickable="true">
+        <ImageView
+            android:id="@+id/radioui_collect_dialog_repalce_iv"
+            android:layout_width="@dimen/radioui_collection_dialog_bt_width"
+            android:layout_height="@dimen/radioui_collection_dialog_bt_height"
+            android:layout_weight="1"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/radioui_favorite_list_replace"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/radioui_collect_dialog_delete_rl"
+        android:layout_width="@dimen/radioui_collection_dialog_rl_width"
+        android:layout_height="@dimen/radioui_collection_dialog_rl_height"
+        android:background="@drawable/radioui_favorite_delete_bt_selector"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/radioui_collect_dialog_delete_iv"
+            android:layout_width="@dimen/radioui_collection_dialog_bt_width"
+            android:layout_height="@dimen/radioui_collection_dialog_bt_height"
+            android:layout_weight="1"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/radioui_favorite_list_delete"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

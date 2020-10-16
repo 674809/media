@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/radioui_search_dialog_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/radioui_pop_bg"/>
+    
+    <TextView
+        android:layout_width="@dimen/radioui_search_dialog_textView_width"
+        android:layout_height="wrap_content"
+        android:text="@string/radioui_modify_favorite_list_full_text"
+        android:textSize="@dimen/radioui_favorite_list_full_dialog_text_size"
+        android:textColor="@color/radioui_favoritelist_full__dialog_text_color"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

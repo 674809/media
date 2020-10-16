@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+  
+<!--  <item name="android:windowTranslucentStatus">false</item>   -->
+    <!--Main page-->
+    <string name="radio">Radio</string>
+    <string name="usb_upper">USB</string>
+    <string name="usb_music">USB Music</string>
+    <string name="usb_video">USB Video</string>
+    <string name="usb_image">USB Image</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="sound">Sound</string>
+
+
+
+    <style name="radiobutton_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="textcolor_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="folder_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/folder_bt_select</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="usb_title_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/textblack_withe</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>

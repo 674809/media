@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+
+    defaultConfig {
+        minSdkVersion 23
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion = '25.0.1'
+}
+
+dependencies {
+    // JAR
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // V7
+    implementation 'com.android.support:appcompat-v7:25.4.0'
+}

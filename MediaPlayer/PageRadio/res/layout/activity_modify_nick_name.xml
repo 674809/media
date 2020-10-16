@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    tools:context="com.egar.radio.activity.ModifyNickNameActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/radioui_modity_nickname_back_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/radioui_modity_nickname_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/radioui_station_list_back"/>
+
+        <com.egar.radio.customizeview.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/refresh_station_back"
+            android:textSize="@dimen/radioui_modity_nickname_back_textsize"
+            android:layout_marginLeft="@dimen/radioui_stationlist_back_textview_marginleft"
+            android:textColor="@color/radioui_station_list_title_text"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/radioui_modity_nickname_ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/radioui_modity_nickname_ll_height"
+        android:layout_below="@+id/radioui_modity_nickname_back_rl"
+        android:background="@color/radioui_rename_freq_edittext_bg"
+        android:layout_marginLeft="@dimen/radioui_modity_nickname_rl_marginleft"
+        android:layout_marginRight="@dimen/radioui_modity_nickname_rl_marginright"
+        android:layout_marginTop="@dimen/radioui_modity_nickname_rl_margintop"
+
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/radioui_modity_nickname_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/radioui_modify_nickname_rename_remove_iv"
+            android:background="@color/radioui_rename_freq_rl_bg"
+            android:paddingLeft="@dimen/radioui_modity_nickname_et_marginleft"
+            android:textColor="@color/radioui_rename_et_text_color"
+            android:textSize="@dimen/radioui_modity_nickname_et_textsize"
+            android:gravity="center_vertical"
+            android:layout_weight="4"
+            />
+
+        <ImageView
+            android:id="@+id/radioui_modify_nickname_rename_remove_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:layout_toLeftOf="@+id/radioui_modify_nickname_rename_deleteall_iv"
+            android:layout_marginLeft="@dimen/radioui_modity_nickname_delete_iv_marginleft"
+            android:layout_marginRight="@dimen/radioui_modity_nickname_remove_to_delete_marginright"
+            android:src="@drawable/radioui_station_list_rename_remove"/>
+
+        <ImageView
+            android:id="@+id/radioui_modify_nickname_rename_deleteall_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/radioui_modity_nickname_delete_iv_marginleft"
+            android:layout_marginRight="@dimen/radioui_modity_nickname_delete_iv_marginright"
+            android:src="@drawable/radioui_station_list_rename_deleteall"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

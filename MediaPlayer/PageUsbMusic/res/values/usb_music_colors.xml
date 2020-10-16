@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Audio list top -->
+    <color name="color_red_040">#66ff0000</color>
+    <color name="color_red_080">#ccff0000</color>
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="color_black_100">#ff000000</color>
+
+
+</resources>

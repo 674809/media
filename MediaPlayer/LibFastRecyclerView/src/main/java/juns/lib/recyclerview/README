@@ -1,0 +1,21 @@
+1. Use animation
+    (1) Grid RecyclerView example:
+    GridLayoutAnimationController controller = new GridLayoutAnimationController(RecyclerViewLayoutAnimHelper.getAnimationSetAlpha());
+    controller.setColumnDelay(0.2f);
+    controller.setRowDelay(0.3f);
+    controller.setOrder(LayoutAnimationController.ORDER_NORMAL);
+
+    (2) List RecyclerView example:
+    LayoutAnimationController controller = new LayoutAnimationController(RecyclerViewLayoutAnimHelper.getAnimationSetAlpha());
+    controller.setDelay(0.1f);
+    controller.setOrder(LayoutAnimationController.ORDER_NORMAL);
+
+2. LinearLayoutManager - Set item space
+    int space = 8;
+    mRecyclerView.addItemDecoration(new SpacesItemDecoration(spacingInPixels));
+
+3. GridLayoutManager - Set item space
+    int spanCount = 3; // 3 - 列数
+    int spacing = 50; // 50px - 间隔
+    boolean includeEdge = false; //是否包含边缘
+    mRecyclerView.addItemDecoration(new GridSpacingItemDecoration(spanCount, spacing, includeEdge));

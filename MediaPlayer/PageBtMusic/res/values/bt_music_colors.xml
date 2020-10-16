@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bt_color_transparent">#00FFFFFF</color>
+    <color name="bt_color_white">#FFFFFFFF</color>
+    <color name="bt_color_white_005">#0dFFFFFF</color>
+    <color name="bt_color_white_010">#20FFFFFF</color>
+    <color name="bt_color_white_020">#33FFFFFF</color>
+    <color name="bt_color_white_030">#4cFFFFFF</color>
+    <color name="bt_color_white_040">#66FFFFFF</color>
+    <color name="bt_color_white_050">#7aFFFFFF</color>
+    <color name="bt_color_white_060">#99FFFFFF</color>
+    <color name="bt_color_white_070">#b2FFFFFF</color>
+    <color name="bt_color_white_080">#ccFFFFFF</color>
+    <color name="bt_color_white_090">#e5FFFFFF</color>
+    <color name="bt_color_white_100">#ffFFFFFF</color>
+</resources>

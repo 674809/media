@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Widget.SeekBar.VIDEO_PLAYER" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">5dp</item>
+        <item name="android:minHeight">5dp</item>
+        <item name="android:progressDrawable">@drawable/beauty_face_seek_bar</item>
+        <item name="android:thumb">@drawable/seekbar_btn</item>
+        <item name="android:thumbOffset">0dp</item>
+    </style>
+
+</resources>

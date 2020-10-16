@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_radioui_play_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rl_radioui_full"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/radioui_play_main_btn_bg_full_margintop"
+                android:src="@drawable/radioui_play_main_btn_bg"/>
+
+            <TextView
+                android:id="@+id/tv_radioui_freqs_full"
+                android:layout_width="@dimen/radioui_freqs_textview_full_width"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_desc"
+                android:background="@color/radioui_text_bg"
+                android:textColor="@color/radiui_text"
+                android:textSize="@dimen/radioui_freqs_textview_full_textsize"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/radioui_freqs_textview_full_margintop"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginLeft="@dimen/radioui_freqs_textview_full_marginleft"/>
+
+            <TextView
+                android:id="@+id/tv_radioui_hz_full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fm_freq_unit_tv"
+                android:textSize="20sp"
+                android:textColor="@color/radiui_text"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="87dp"
+                android:layout_marginLeft="590dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="165dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_radioui_search_pre_full"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_full_margintop"
+                    android:src="@drawable/radioui_search_prev"/>
+
+                <ImageView
+                    android:id="@+id/iv_radioui_step_pre_full"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_full_margintop"
+                    android:src="@drawable/radioui_step_pre" />
+
+                <ImageView
+                    android:id="@+id/iv_radioui_step_next_full"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_full_margintop"
+                    android:src="@drawable/radioui_step_next" />
+
+                <ImageView
+                    android:id="@+id/iv_radioui_search_next_full"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_full_margintop"
+                    android:src="@drawable/radioui_search_next"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_radioui_half"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/radioui_play_main_btn_bg_half_margintop"
+                android:src="@drawable/radioui_play_main_btn_bg"/>
+
+            <TextView
+                android:id="@+id/tv_radioui_freqs_half"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_desc"
+                android:background="@color/radioui_text_bg"
+                android:textColor="@color/radiui_text"
+                android:textSize="40sp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginLeft="400dp"/>
+
+            <TextView
+                android:id="@+id/tv_radioui_hz_half"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fm_freq_unit_tv"
+                android:textSize="20sp"
+                android:textColor="@color/radiui_text"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="590dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_radioui_search_pre_half"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_half_margintop"
+                    android:src="@drawable/radioui_search_prev"/>
+
+                <ImageView
+                    android:id="@+id/iv_radioui_step_pre_half"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_half_margintop"
+                    android:src="@drawable/radioui_step_pre" />
+
+                <ImageView
+                    android:id="@+id/iv_radioui_step_next_half"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_half_margintop"
+                    android:src="@drawable/radioui_step_next" />
+
+                <ImageView
+                    android:id="@+id/iv_radioui_search_next_half"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/radioui_search_imageview_half_margintop"
+                    android:src="@drawable/radioui_search_next"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <include
+                layout="@layout/radioui_bottom_layout"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_radioui_station_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:id="@+id/rl_radioui_station_list_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_radioui_station_list_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/radioui_station_list_back"/>
+
+            <com.egar.radio.customizeview.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/refresh_station_back"
+                android:textSize="30dp"
+                android:layout_marginLeft="@dimen/radioui_stationlist_back_textview_marginleft"
+                android:textColor="@color/radioui_station_list_title_text"/>
+
+        </RelativeLayout>
+
+
+
+        <com.egar.radio.customizeview.CustomTextView
+            android:id="@+id/tv_radioui_station_list_title_name"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/station_list_title_name"
+            android:textSize="30dp"
+            android:textColor="@color/radioui_station_list_title_text"/>
+
+        <com.egar.radio.customizeview.CustomTextView
+            android:id="@+id/tv_radioui_station_list_refresh"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh_station_list"
+            android:textSize="30dp"
+            android:textColor="@color/radioui_station_list_title_text"/>
+
+        <ListView
+            android:id="@+id/lv_radioui_station_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_radioui_station_list_title_name"
+            android:layout_above="@+id/ll_radioui_stationlist_band_type"
+            android:layout_marginTop="@dimen/radioui_stationlist_listview_margintop"
+            android:layout_marginLeft="@dimen/radioui_stationlist_listview_marginleft"
+            android:layout_marginRight="@dimen/radioui_stationlist_listview_marginright"
+            android:layout_marginBottom="@dimen/radioui_stationlist_listview_marginbottom"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbars="vertical"
+            android:scrollbarSize="@dimen/radioui_stationlist_scollbar_size"
+            android:scrollbarThumbVertical ="@drawable/station_list_scrollbar"
+            android:scrollbarTrackHorizontal = "@drawable/station_list_scrollbar_bg"
+            android:listSelector="@android:color/transparent"
+            android:paddingRight="@dimen/radioui_stationlist_scollbar_marginleft"
+            android:dividerHeight="2dp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_radioui_stationlist_band_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/radioui_stationlist_band_type_margin_bottom"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_radioui_stationlist_band_type_fm"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/radioui_stationlist_band_type_height"
+                android:background="@drawable/radioui_stationlist_bandtype_bt_unselected_bg"
+                android:layout_marginRight="@dimen/radioui_stationlist_band_type_margin_right"
+                android:layout_weight="1"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/tv_radioui_stationlist_band_type_fm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/fm"
+                    android:textSize="@dimen/radioui_stationlist_band_type"
+                    android:textColor="@color/radioui_station_list_bandtype_text"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_radioui_stationlist_band_type_am"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/radioui_stationlist_band_type_height"
+                android:background="@drawable/radioui_stationlist_bandtype_bt_unselected_bg"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/radioui_stationlist_band_type_margin_left"
+                android:layout_gravity="center"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/tv_radioui_stationlist_band_type_am"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/am"
+                    android:textSize="@dimen/radioui_stationlist_band_type"
+                    android:textColor="@color/radioui_station_list_bandtype_text"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/radioui_modify_nickname_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:id="@+id/radioui_modity_nickname_back_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/radioui_modity_nickname_back_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/radioui_station_list_back"/>
+
+            <com.egar.radio.customizeview.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/refresh_station_back"
+                android:textSize="@dimen/radioui_modity_nickname_back_textsize"
+                android:layout_marginLeft="@dimen/radioui_stationlist_back_textview_marginleft"
+                android:textColor="@color/radioui_station_list_title_text"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/radioui_modity_nickname_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/radioui_modity_nickname_ll_height"
+            android:layout_below="@+id/radioui_modity_nickname_back_rl"
+            android:background="@color/radioui_rename_freq_edittext_bg"
+            android:layout_marginLeft="@dimen/radioui_modity_nickname_rl_marginleft"
+            android:layout_marginRight="@dimen/radioui_modity_nickname_rl_marginright"
+            android:layout_marginTop="@dimen/radioui_modity_nickname_rl_margintop"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/radioui_modity_nickname_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/radioui_modify_nickname_rename_remove_iv"
+                android:background="@color/radioui_rename_freq_rl_bg"
+                android:paddingLeft="@dimen/radioui_modity_nickname_et_marginleft"
+                android:textColor="@color/radioui_rename_et_text_color"
+                android:textSize="@dimen/radioui_modity_nickname_et_textsize"
+                android:gravity="center_vertical"
+                android:layout_weight="4"
+                />
+
+            <ImageView
+                android:id="@+id/radioui_modify_nickname_rename_remove_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_toLeftOf="@+id/radioui_modify_nickname_rename_deleteall_iv"
+                android:layout_marginLeft="@dimen/radioui_modity_nickname_delete_iv_marginleft"
+                android:layout_marginRight="@dimen/radioui_modity_nickname_remove_to_delete_marginright"
+                android:src="@drawable/radioui_station_list_rename_remove"/>
+
+            <ImageView
+                android:id="@+id/radioui_modify_nickname_rename_deleteall_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/radioui_modity_nickname_delete_iv_marginleft"
+                android:layout_marginRight="@dimen/radioui_modity_nickname_delete_iv_marginright"
+                android:src="@drawable/radioui_station_list_rename_deleteall"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

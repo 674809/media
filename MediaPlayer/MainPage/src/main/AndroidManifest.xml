@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.egar.mediaui"
+    android:sharedUserId="android.uid.system">
+    <!-- Storage permission -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="screenLayout|screenSize"
+            android:launchMode="singleInstance"
+            android:taskAffinity="com.egar.media"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SearchActivity" /> <!-- Radio start -->
+        <activity android:name=".WaringActivity">
+            <intent-filter>
+                <action android:name="com.egar.waring"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <!-- usbmusic start -->
+        <!--
+     <receiver android:name=".receiver.MediaBtnReceiver">
+                 <intent-filter android:priority="10000">
+                     <action android:name="android.intent.action.MEDIA_BUTTON" />
+                 </intent-filter>
+             </receiver>
+        -->
+        <!--
+    <receiver
+            android:name=".receiver.MediaBoardcast"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        -->
+        <receiver android:name=".receiver.MediaSource">
+            <intent-filter>
+                <action android:name="com.egar.sorcekey" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

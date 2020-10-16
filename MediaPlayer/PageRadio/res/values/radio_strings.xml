@@ -1,0 +1,21 @@
+<resources>
+    <string name="radio_no_img">NO IMAGE</string>
+    <string name="radio_desc">Radio</string>
+
+    <string name="station_list_tv">STATION  LIST</string>
+    <string name="fm_freq_unit_tv">MHZ</string>
+    <string name="am_freq_unit_tv">HZ</string>
+    <string name="fm">FM</string>
+    <string name="am">AM</string>
+    <string name="click_collect"></string>
+    <string name="station_list_title_name">Station List</string>
+    <string name="refresh_station_list">Refresh</string>
+    <string name="refresh_station_back">Back</string>
+    <string name="modify_nickname_yes">YES</string>
+    <string name="modify_nickname_no">NO</string>
+    <string name="radioui_collection_dialog_replace">Replace</string>
+    <string name="radioui_collection_dialog_delete">Delete</string>
+    <string name="radioui_isSearching_dialog_text">The radio is scanning, please wait a moment. . .</string>
+    <string name="radioui_modify_nickname_dialog_text">Do you want to change the name?</string>
+    <string name="radioui_modify_favorite_list_full_text">Favorites list is full.</string>
+</resources>

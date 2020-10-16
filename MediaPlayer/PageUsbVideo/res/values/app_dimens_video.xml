@@ -1,0 +1,38 @@
+<resources>
+
+
+    <!-- Video top -->
+    <dimen name="video_top_layout_h">120dp</dimen>
+    <dimen name="video_top_item_font_size">36sp</dimen>
+    <dimen name="video_top_item_margin_top">15dp</dimen>
+    <dimen name="video_top_item_margin_bottom">15dp</dimen>
+    <!-- Video list left-bottom -->
+    <dimen name="video_left_layout_w">180dp</dimen>
+    <dimen name="video_left_loading_w">60dp</dimen>
+    <!-- Video list right-bottom GridView -->
+    <dimen name="video_gv_margin_start">160dp</dimen>
+    <dimen name="video_gv_cover_w">250dp</dimen>
+    <dimen name="video_gv_cover_h">160dp</dimen>
+    <dimen name="video_gv_play_flag_w">100dp</dimen>
+    <dimen name="video_gv_play_flag_h">100dp</dimen>
+    <!-- Audio list right-bottom ListView -->
+    <dimen name="video_lv_margin_start">160dp</dimen>
+    <dimen name="video_lv_com_h">112dp</dimen>
+    <dimen name="video_lv_com_icon_w">40dp</dimen>
+    <dimen name="video_lv_com_icon_h">40dp</dimen>
+    <dimen name="video_lv_com_ui_space">35dp</dimen>
+    <dimen name="video_lv_com_font_size">40sp</dimen>
+
+    <!-- Video player middle-->
+    <dimen name="video_player_top_font_size">40sp</dimen>
+    <dimen name="video_player_folder_font_size">40sp</dimen>
+    <dimen name="video_player_sort_font_size">36sp</dimen>
+    <dimen name="video_player_title_font_size">40sp</dimen>
+    <dimen name="audio_player_space_to_left">80dp</dimen>
+    <dimen name="audio_player_space_to_right">80dp</dimen>
+    <!-- Video player bottom-->
+    <dimen name="video_player_op_w">100dp</dimen>
+    <dimen name="video_player_op_h">100dp</dimen>
+    <dimen name="video_player_op_period">40dp</dimen>
+
+</resources>

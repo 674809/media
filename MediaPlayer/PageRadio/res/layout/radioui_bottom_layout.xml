@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:background="@drawable/radioui_bottombar_bg"
+              android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_radioui_bottombar_collection"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btn_radioui_collection_page_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/radioui_collection_switch_page_bt_margin_left"
+            android:background="@color/radioui_bottombar_bt_bg"
+            android:src="@drawable/radioui_collection_list_prev" />
+
+        <com.egar.mediaui.lib.NoScrollViewPager
+            android:id="@+id/vp_radioui_collection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/radioui_collection_vp_marginleft"
+            android:layout_marginRight="@dimen/radioui_collection_vp_marginright"
+            android:layout_toRightOf="@+id/btn_radioui_collection_page_pre"
+            android:layout_toLeftOf="@+id/btn_radioui_collection_page_next"/>
+
+        <ImageButton
+            android:id="@+id/btn_radioui_collection_page_next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/radioui_collection_switch_page_bt_margin_right"
+            android:layout_centerVertical="true"
+            android:background="@color/radioui_bottombar_bt_bg"
+            android:src="@drawable/radioui_collection_list_next" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_function_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_radioui_stationlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/station_list_tv"
+            android:textSize="28sp"
+            android:textColor="@color/radioui_bottom_text"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/radioui_stationlist_tv_selector"
+            android:lineSpacingExtra="-10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_radioui_fm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/fm"
+            android:textSize="35sp"
+            android:textColor="@color/radioui_bottom_text"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/radioui_bottombar_bt_bg"
+            android:lineSpacingExtra="-10dp"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/tv_radioui_am"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/am"
+            android:textSize="35sp"
+            android:textColor="@color/radioui_bottom_text"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/radioui_bottombar_bt_bg"
+            android:lineSpacingExtra="-10dp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

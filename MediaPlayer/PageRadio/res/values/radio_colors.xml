@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="radioui_bottom_line">#ffffff</color>
+    <color name="radioui_bottom_text">#ffffff</color>
+    <color name="radioui_text_bg">#00FFFFFF</color>
+    <color name="radiui_text">#FFFFFFFF</color>
+    <color name="radioui_collected_text_unselected">#FFFFFFFF</color>
+    <color name="radioui_collected_text_selected">#FFe42850</color>
+    <color name="radioui_availablelist_text_selected">#FFe42850</color>
+    <color name="radioui_availablelist_text_unselected">#FFFFFFFF</color>
+    <color name="radioui_station_list_item_freq_text">#FFFFFFFF</color>
+    <color name="radioui_station_list_title_text">#FFFFFFFF</color>
+    <color name="radioui_station_list_scollbar">#FD365F</color>
+    <color name="radioui_station_list_scollbar_bg">#FEFEFE</color>
+    <color name="radioui_station_list_bandtype_text">#FFFFFFFF</color>
+    <color name="radioui_collection_dialog_text">#FFFFFFFF</color>
+    <color name="radioui_collection_dialog_text_gray">#FFA6A6A6</color>
+    <color name="band_selected">@color/color_red_080</color>
+    <color name="band_unselected">#00FFFFFF</color>
+    <color name="radioui_rename_freq_edittext_bg">#FFFFFFFF</color>
+    <color name="radioui_rename_freq_rl_bg">#FFFFFFFF</color>
+    <color name="radioui_rename_freq_ll_bg">#FFA6D4FE</color>
+    <color name="radioui_rename_freq_bt_text_color">#FFFFFFFF</color>
+    <color name="radioui_rename_et_text_color">#FF000000</color>
+    <color name="radioui_bottombar_bt_bg">#00000000</color>
+    <color name="txt_on_searching">#505050</color>
+    <color name="radioui_search_dialog_text_color">#FFFFFFFF</color>
+    <color name="radioui_favoritelist_full__dialog_text_color">#FFFFFFFF</color>
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Black -->
+    <color name="color_black_005_percent">#0d000000</color>
+    <color name="color_black_010_percent">#20000000</color>
+    <color name="color_black_020_percent">#33000000</color>
+    <color name="color_black_030_percent">#4c000000</color>
+    <color name="color_black_040_percent">#66000000</color>
+    <color name="color_black_050_percent">#7a000000</color>
+    <color name="color_black_060_percent">#99000000</color>
+    <color name="color_black_070_percent">#b2000000</color>
+    <color name="color_black_080_percent">#cc000000</color>
+    <color name="color_black_090_percent">#e5000000</color>
+    <color name="color_black_100_percent">#ff000000</color>
+
+    <!-- White -->
+    <color name="color_white_005_percent">#0dffffff</color>
+    <color name="color_white_010_percent">#20ffffff</color>
+    <color name="color_white_020_percent">#33ffffff</color>
+    <color name="color_white_030_percent">#4cffffff</color>
+    <color name="color_white_040_percent">#66ffffff</color>
+    <color name="color_white_050_percent">#7affffff</color>
+    <color name="color_white_060_percent">#99ffffff</color>
+    <color name="color_white_070_percent">#b2ffffff</color>
+    <color name="color_white_080_percent">#ccffffff</color>
+    <color name="color_white_090_percent">#e5ffffff</color>
+    <color name="color_white_100_percent">#ffffffff</color>
+</resources>

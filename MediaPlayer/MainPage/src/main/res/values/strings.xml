@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EgarMedias</string>
+    <string name="jinghao">"#"</string>
+    <string name="star">"*"</string>
+    <string name="usb_musics">USB-MUSIC</string>
+    <string name="usb_videos">USB-VIDEO</string>
+    <string name="usb_pics">USB-PIC</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/usb_img_fillstr_mode_back"
+            android:drawableLeft="@drawable/iv_back"
+            android:drawablePadding="10dp"
+            android:scaleType="centerInside"
+            android:text="@string/usb_img_back"
+            android:textColor="@color/color_white_100_percent"
+            android:textSize="21sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/usb_image_list"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="21sp"
+            android:textColor="@color/color_white_100_percent"
+            android:layout_height="wrap_content"/>
+
+        <com.egar.usbimage.view.DefaultTxtImageView
+            android:id="@+id/iv_switch"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerInside" />
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="wrap_content"
+            android:src="@drawable/search_image"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <juns.lib.recyclerview.FastRecyclerView
+        android:id="@+id/v_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_below="@id/layout_top_bar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="85dp"/>
+
+    <com.egar.usbimage.view.LetterSideBar
+        android:id="@+id/lsb"
+        android:layout_width="55dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_top_bar"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="85dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_list"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_list_chose"
+            android:gravity="center"
+            android:text="@string/usb_image_list"
+            android:textSize="21sp"
+            android:textColor="@color/color_white_100_percent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_grid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_list_chose"
+            android:gravity="center"
+            android:text="@string/usb_image_grid"
+            android:textSize="21sp"
+            android:textColor="@color/color_white_100_percent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

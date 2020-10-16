@@ -1,0 +1,24 @@
+<resources>
+    <string name="usb_image_no_img">NO IMAGE</string>
+    <string name="usb_image_desc">Usb image description</string>
+
+    <!---->
+    <!-- <string name="usb_image_media_info_pos">%s/%s</string> -->
+
+    <!--Fill stings-->
+    <string name="usb_img_fillstr_title">nameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffff.jpg</string>
+    <string name="usb_img_fillstr_pos_of_list">2/7</string>
+    <string name="usb_img_fillstr_folder">Folder</string>
+    <string name="usb_img_fillstr_prev">Prev</string>
+    <string name="usb_img_fillstr_play">Play</string>
+    <string name="usb_img_fillstr_pause">Pause</string>
+    <string name="usb_img_fillstr_next">Next</string>
+    <string name="usb_img_fillstr_mode_loop">Loop</string>
+    <string name="usb_img_fillstr_mode_random">Random</string>
+    <string name="usb_img_fillstr_mode_back">Back</string>
+    <string name="usb_img_fillstr_mode_grid">GRID</string>
+    <string name="usb_img_fillstr_mode_list">LIST</string>
+    <string name="usb_img_back">Back</string>
+    <string name="usb_image_list">List</string>
+    <string name="usb_image_grid">Grid</string>
+</resources>

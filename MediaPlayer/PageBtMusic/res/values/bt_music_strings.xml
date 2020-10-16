@@ -1,0 +1,11 @@
+<resources>
+    <string name="bt_music_no_img">NO IMAGE</string>
+    <string name="bt_music_desc">Bluetooth Music</string>
+    <string name="bt_music_not_connected">Bluetooth Music not connected</string>
+    <string name="connect_bluetooth">Connect Bluetooth</string>
+    <string name="bt_music_song_name">Song Name</string>
+    <string name="bt_music_songer">Songer</string>
+    <string name="bt_music_ablum">Ablum</string>
+    <string name="bt_music_pause">Pause</string>
+    <string name="bt_music_fullscreen">Full Screen</string>
+</resources>

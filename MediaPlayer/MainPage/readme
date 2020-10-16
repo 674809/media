@@ -1,0 +1,1 @@
+SWITCH_DEBUG_MODE = adb shell am broadcast -a "com.egar.music.test.OPEN_MUSIC"

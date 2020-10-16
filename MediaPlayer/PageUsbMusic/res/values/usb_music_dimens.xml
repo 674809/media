@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Audio list top -->
+    <dimen name="paly_time_size">20sp</dimen>
+    <dimen name="audio_top_item_font_size">36sp</dimen>
+
+
+</resources>

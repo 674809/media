@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:id="@+id/img_back"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow_left"
+                    android:text="@string/back"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/folders"
+                android:textSize="30sp" />
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+            <RelativeLayout
+                android:id="@+id/img_search"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/search"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <FrameLayout
+            android:id="@+id/usb_folder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </FrameLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/keyboard_n">
+            <RadioButton
+                android:id="@+id/bt_favorites"
+                android:text="@string/favorite"
+                android:checked="true"
+                style="@style/folder_button_style" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dividing_line"/>
+
+            <RadioButton
+                android:id="@+id/bt_folder"
+                style="@style/folder_button_style"
+                android:text="@string/folder"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dividing_line"/>
+            <RadioButton
+                android:id="@+id/bt_songs"
+                style="@style/folder_button_style"
+                android:text="@string/all_song"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dividing_line"/>
+            <RadioButton
+                android:id="@+id/bt_art"
+                style="@style/folder_button_style"
+                android:text="@string/artists"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dividing_line"/>
+            <RadioButton
+                android:id="@+id/bt_album"
+                style="@style/folder_button_style"
+                android:text="@string/albums" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+
+</LinearLayout>

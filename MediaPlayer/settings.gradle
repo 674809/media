@@ -1,0 +1,5 @@
+rootProject.name = 'EgarMedias2.0'
+include ':LibCommon'
+include ':MainPage'
+include ':LetterSideBar'
+include ':LibFastRecyclerView'

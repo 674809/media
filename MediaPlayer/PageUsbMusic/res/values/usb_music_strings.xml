@@ -1,0 +1,28 @@
+<resources>
+    <string name="usb_music_no_img">NO IMAGE</string>
+    <string name="usb_music_desc">Usb music description</string>
+    <string name="folders">文件夹集</string>
+    <string name="back">Back</string>
+    <string name="unknow">未知</string>
+    <string name="play_error">播放失败</string>
+    <string name="unknown_title">未知歌曲</string>
+    <string name="favorite">Favorites</string>
+    <string name="folder">Folder</string>
+    <string name="all_song">All Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="search">Search</string>
+    <string name="favorite_null">收藏列表为空</string>
+    <string name="no_usb">无可用资源</string>
+    <string name="time_start">00:00</string>
+    <string name="scann_start">开始扫描</string>
+    <string name="scanning">扫描中...</string>
+    <string name="music_scann_end">扫描结束</string>
+    <string name="scann_end">扫描结束</string>
+    <string name="music_name">歌曲名称</string>
+    <string name="music_songer">歌曲专辑</string>
+    <string name="waring">Please do not watch the video "\n"
+        While driving in order to avoid any danger!</string>
+
+
+</resources>

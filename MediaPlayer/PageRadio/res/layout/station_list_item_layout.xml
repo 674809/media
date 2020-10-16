@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/radioui_station_list_item_bg">
+
+    <ImageView
+        android:id="@+id/radioui_station_list_item_selected_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/radioui_station_list_item_selected"/>
+
+    <TextView
+        android:id="@+id/radioui_station_list_item_freq_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/radioui_station_list_item_selected_iv"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/radioui_station_list_item_freq_text"/>
+
+    <ImageView
+        android:id="@+id/radioui_station_list_item_collected_status_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/radioui_station_list_item_rename_iv"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/radioui_station_list_uncollected"/>
+
+    <ImageView
+        android:id="@+id/radioui_station_list_item_rename_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/radioui_station_list_item_rename"/>
+
+</RelativeLayout>
